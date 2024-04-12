@@ -1,0 +1,36 @@
+{
+  "name": "date-picker-example",
+  "version": "1.0.0",
+  "description": "Example of using Material-UI DatePickers",
+  "main": "index.js",
+  "dependencies": {
+    "material-ui": "0.17.2",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

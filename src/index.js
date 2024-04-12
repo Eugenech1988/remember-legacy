@@ -8,8 +8,9 @@ injectTapEventPlugin();
 
 ReactDOM.render(
   <MuiThemeProvider>
-    {/*<div/>*/}
-    <CustomDatePicker/>
+    <div style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>
+      <CustomDatePicker/>
+    </div>
   </MuiThemeProvider>,
   document.getElementById('root')
 );
